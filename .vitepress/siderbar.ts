@@ -158,7 +158,10 @@ export const sidebar = {
   "/frame/": [
     {
       text: "nest基础",
-      items: [{ text: "1.nest基础", link: "/nest/1.nest基础" }],
+      items: [
+        { text: "1.nest基础", link: "/frame/nest/1.nest基础" },
+        { text: "2.Ioc和APO", link: "/frame/nest/2.Ioc和AOP" }
+      ],
     },
   ],
 };

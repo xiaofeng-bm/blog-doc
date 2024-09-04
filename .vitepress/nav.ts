@@ -2,7 +2,7 @@ export const nav = [
   {
     text: "基础",
     activeMatch: "^/base/",
-    items: [{ text: "css", link: "/base/css/1.选择器" }, ],
+    items: [{ text: "css", link: "/base/css/1.选择器" },],
   },
   {
     text: "分类",
@@ -15,9 +15,8 @@ export const nav = [
   },
   {
     text: "框架",
-    activeMatch: "^/frame/",
     items: [
-      { text: "nestjs", link: "/nest/1.nest基础" },
+      { text: "nestjs", link: "/frame/nest/1.nest基础" },
     ],
   },
 ];
