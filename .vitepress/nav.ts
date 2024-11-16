@@ -16,7 +16,8 @@ export const nav = [
   {
     text: "框架",
     items: [
-      { text: "nestjs", link: "/frame/nest/1.nest基础" },
+      { text: "nestjs", link: "/nestjs/basic/1.nest基础" },
+      { text: "react", link: "/react/basic/1.hooks" },
     ],
   },
 ];

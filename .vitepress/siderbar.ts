@@ -10,7 +10,7 @@ export const sidebar = {
       text: "Docker",
       items: [
         { text: "1.Desktop使用", link: "/docker/1.desktop" },
-        { text: "2.Dockerfile配置", link: "/docker/2.dockerfile" },
+        { text: "2.Dockerfile配置", link: "/docker/2.docker基础" },
       ],
     },
   ],
@@ -155,13 +155,28 @@ export const sidebar = {
       ],
     },
   ],
-  "/frame/": [
+  "/nestjs/": [
     {
-      text: "nest基础",
+      text: "nestjs基础",
       items: [
-        { text: "1.nest基础", link: "/frame/nest/1.nest基础" },
-        { text: "2.Ioc和APO", link: "/frame/nest/2.Ioc和AOP" }
+        { text: "1.nest基础", link: "/nestjs/basic/1.nest基础" },
+        { text: "2.Ioc和APO", link: "/nestjs/basic/2.ioc和aop" }
       ],
     },
+    {
+      text: 'typeorm',
+      items: [
+        { text: 'typeorm', link: '/nestjs/typeorm/1.typeorm' }
+      ]
+    }
   ],
+  "/react/": [
+    {
+      text: 'react基础',
+      items: [
+        { text: '1.hooks', link: '/react/basic/1.hooks' },
+        { text: '2.受控和非受控', link: '/react/basic/2.受控和非受控' },
+      ]
+    }
+  ]
 };
