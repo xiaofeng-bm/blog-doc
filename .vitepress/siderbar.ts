@@ -160,7 +160,8 @@ export const sidebar = {
       text: "nestjs基础",
       items: [
         { text: "1.nest基础", link: "/nestjs/basic/1.nest基础" },
-        { text: "2.Ioc和APO", link: "/nestjs/basic/2.ioc和aop" }
+        { text: "2.Ioc和APO", link: "/nestjs/basic/2.ioc和aop" },
+        { text: "3.装饰器", link: "/nestjs/basic/3.装饰器" },
       ],
     },
     {
