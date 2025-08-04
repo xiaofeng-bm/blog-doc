@@ -1,9 +1,30 @@
 export const sidebar = {
   "/base/": [
     {
-      text: "css",
-      items: [{ text: "1.css选择器", link: "/base/css/1.选择器" }],
+      text: "CSS",
+      items: [
+        { text: "1.css选择器", link: "/base/css/1.选择器" },
+        { text: "2.重绘&重排", link: "/base/css/2.重绘&重排" },
+        { text: "3.移动端屏幕适配", link: "/base/css/3.移动端屏幕适配" },
+      ],
     },
+    {
+      text: 'JS',
+      items: [
+        { text: '1.es新特性', link: '/base/JS/1.es新特性' },
+        { text: '2.ts基础', link: '/base/JS/2.ts基础' },
+        { text: '3.js性能优化', link: '/base/JS/3.js性能优化' },
+      ]
+    },
+    {
+      text: 'FP',
+      items: [
+        { text: '1.函数式编程一', link: '/base/FP/1.函数式编程一' },
+        { text: '2.函数式编程二', link: '/base/FP/2.函数式编程二' },
+        { text: '3.promise源码一', link: '/base/FP/3.promise源码一' },
+        { text: '4.promise源码二', link: '/base/FP/4.promise源码二' },
+      ]
+    }
   ],
   "/docker/": [
     {
@@ -177,6 +198,20 @@ export const sidebar = {
       items: [
         { text: '1.hooks', link: '/react/basic/1.hooks' },
         { text: '2.受控和非受控', link: '/react/basic/2.受控和非受控' },
+      ]
+    }
+  ],
+  "/element-ui/": [
+    {
+      text: '前言',
+      items: [
+        { text: '1.前言', link: '/element-ui/docs/description' },
+        { text: '2.button', link: '/element-ui/docs/button' },
+        { text: '3.input', link: '/element-ui/docs/input' },
+        { text: '4.layout', link: '/element-ui/docs/layout' },
+        { text: '5.notification', link: '/element-ui/docs/notification' },
+        { text: '6.form', link: '/element-ui/docs/form/base' },
+        { text: '7.table封装', link: '/element-ui/docs/BmTable' },
       ]
     }
   ]
